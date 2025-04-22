@@ -1,0 +1,59 @@
+target_breakdown_task:
+  description: >
+    Break down the annual AOP targets into quarterly, monthly, weekly, and daily to-do lists
+    that are realistic and achievable. The breakdown should account for seasonal variations
+    in training delivery and ensure that targets are distributed appropriately throughout
+    the year. Use the '0' = No Gap indicator to show if Group Learning Directors (GLDs) are
+    on track with their targets.
+  expected_output: >
+    A structured breakdown of AOP targets across different timeframes (quarterly, monthly,
+    weekly, daily) with specific action items for each timeframe. The breakdown should include
+    VILT and ILT targets, learning hours, and competency development goals for each period.
+
+learning_plan_task:
+  description: >
+    Analyze the learning plan to identify the number of VILTs and ILTs scheduled and determine
+    if there are any gaps in meeting targets. Use information from iEvolve and iGlance systems
+    to assess the current state of the learning plan. Calculate the gap indicator (0 = No Gap)
+    for each target area to clearly show if GLDs are on track.
+  expected_output: >
+    A detailed analysis of the learning plan with gap indicators for each target area. The
+    analysis should show the current number of scheduled VILTs and ILTs, the gap between
+    scheduled and target numbers, and a clear indicator (0 = No Gap) for areas where targets
+    are being met or exceeded.
+
+risk_assessment_task:
+  description: >
+    Identify risk factors when GLD schedules, offering registrations, and closure ratios don't
+    match the desired numbers for AOP targets. Use data from iEvolve, iGlance, AFTD, and
+    Internal Internship systems to assess risks. Focus on areas where there is a significant
+    gap between targets and current performance.
+  expected_output: >
+    A risk assessment report highlighting areas where targets may be missed and the severity
+    of each risk. The report should include specific risk factors, their potential impact on
+    AOP targets, and suggested mitigation strategies. Each risk should be categorized by
+    severity (High, Medium, Low).
+
+opportunity_task:
+  description: >
+    Analyze learning data trends to identify opportunities for meeting AOP targets more
+    effectively. Look for patterns in registration rates, completion rates, and competency
+    development that could be leveraged to close gaps. Generate specific recommendations like
+    "If you schedule 3 XYZ Bootcamp, you can meet your goal of ABC Learning Hours & DEF Competency."
+  expected_output: >
+    A list of specific opportunities with quantifiable impacts. Each opportunity should clearly
+    state what action to take and the expected outcome in terms of target achievement. The
+    opportunities should be practical, actionable, and based on data-driven insights from the
+    learning systems.
+
+diagnostic_task:
+  description: >
+    Generate diagnostic reports for Leaders and Training Directors (TD) on skills strengths,
+    weaknesses, and future risks based on all available data. The reports should provide a
+    comprehensive view of the current state of learning delivery and highlight areas that
+    require attention or present opportunities for improvement.
+  expected_output: >
+    Comprehensive diagnostic reports that provide actionable insights for leadership
+    decision-making. The reports should include identified strengths, weaknesses, future
+    risks, and specific recommendations. The insights should be data-driven and focused
+    on helping leaders make informed decisions about learning initiatives.
